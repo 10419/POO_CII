@@ -17,7 +17,7 @@ import javax.swing.JTable;
 import javax.swing.JTextField;
 import javax.swing.plaf.DimensionUIResource;
 
-    public class CrudVectorFrame extends JFrame{
+    public class crudVectorFrame extends JFrame{
         metodosSistema metodos=new metodosSistema();
         JLabel Ib_nombre=new JLabel("nombre");
         JTextField txt_nombre=new JTextField();
@@ -28,7 +28,7 @@ import javax.swing.plaf.DimensionUIResource;
         JLabel Ib_ap_paterno=new JLabel("ap_paterno");
         JTextField txt_ap_paterno=new JTextField();
 
-        public CrudVectorFrame(){
+        public crudVectorFrame(){
             JMenuBar menuBar=new JMenuBar();//menu principal_1
             JMenu menuFile=new JMenu();//1
             JMenu menuMantenimiento= new JMenu();// varios menus_2

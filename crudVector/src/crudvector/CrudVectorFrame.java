@@ -33,7 +33,8 @@ public class CrudVectorFrame extends JFrame {
         JMenuItem menuReportes_Detallado   = new JMenuItem();
         
         menuFile.setText("File");
-        menuFile_Exit.setText("Salir");        
+        menuFile_Exit.setText("Salir");  
+        
         menuMantenimiento.setText("Crud");
         menuMantemiento_Ingresar.setText("Registrar");
         menuMantemiento_Eliminar.setText("Eliminar");
